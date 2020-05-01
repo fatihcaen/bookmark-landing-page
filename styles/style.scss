@@ -1,0 +1,98 @@
+$soft-blue: #5368df;
+$soft-red: #fa5757;
+$grayish-blue: #9194a1;
+$very-dark-blue: #252b46;
+$light-gray: #f7f7f7;
+$black: #000;
+$white: #fff;
+
+.nav-m {
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+
+  .link-m {
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 0.3s;
+  }
+}
+
+@keyframes open {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes close {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.blue-shape,
+.blue-shape-features {
+  z-index: -1;
+}
+
+@for $i from 0 through 2 {
+  #tab#{$i} {
+    h5 {
+      color: $grayish-blue;
+    }
+
+    hr {
+      display: none;
+      width: 0%;
+    }
+
+    hr {
+      animation-duration: 0.2s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+    }
+
+    @keyframes extend {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 50%;
+      }
+    }
+  }
+
+  #tab-content0 {
+    display: flex;
+  }
+}
+
+.q-tab {
+  .arrow::after {
+    content: url(../assets/icon-arrow.svg);
+  }
+}
+
+@for $i from 1 through 4 {
+  #qtab-toggler#{$i}:checked + #answer#{$i} {
+    display: block;
+  }
+}
+
+.subscribe {
+  .result-bg {
+    .error-icon::after {
+      content: url(../assets/icon-error.svg);
+    }
+  }
+}

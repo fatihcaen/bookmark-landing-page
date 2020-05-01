@@ -1,0 +1,133 @@
+.nav-m {
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.nav-m .link-m {
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-delay: 0.3s;
+}
+
+@keyframes open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes close {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.blue-shape,
+.blue-shape-features {
+  z-index: -1;
+}
+
+#tab0 h5 {
+  color: #9194a1;
+}
+#tab0 hr {
+  display: none;
+  width: 0%;
+}
+#tab0 hr {
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes extend {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+#tab-content0 {
+  display: flex;
+}
+
+#tab1 h5 {
+  color: #9194a1;
+}
+#tab1 hr {
+  display: none;
+  width: 0%;
+}
+#tab1 hr {
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes extend {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+#tab-content0 {
+  display: flex;
+}
+
+#tab2 h5 {
+  color: #9194a1;
+}
+#tab2 hr {
+  display: none;
+  width: 0%;
+}
+#tab2 hr {
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes extend {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+#tab-content0 {
+  display: flex;
+}
+
+.q-tab .arrow::after {
+  content: url(../assets/icon-arrow.svg);
+}
+
+#qtab-toggler1:checked + #answer1 {
+  display: block;
+}
+
+#qtab-toggler2:checked + #answer2 {
+  display: block;
+}
+
+#qtab-toggler3:checked + #answer3 {
+  display: block;
+}
+
+#qtab-toggler4:checked + #answer4 {
+  display: block;
+}
+
+.subscribe .result-bg .error-icon::after {
+  content: url(../assets/icon-error.svg);
+}
+
+/*# sourceMappingURL=style.css.map */
