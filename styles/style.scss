@@ -89,6 +89,14 @@ $white: #fff;
   }
 }
 
+@media (min-width: 1440px) {
+  #intro-bg::before {
+    margin-top: 8rem;
+    height: 23rem;
+    margin-left: 7rem;
+  }
+}
+
 ///////////////////// First Tab Content Blue BG
 
 #content-img-bg::before {
@@ -136,6 +144,14 @@ $white: #fff;
     margin-top: 6rem;
     height: 21rem;
     transform: translateX(-52rem);
+  }
+}
+
+@media (min-width: 1440px) {
+  #content-img-bg::before {
+    margin-top: 6rem;
+    height: 21rem;
+    transform: translateX(-62rem);
   }
 }
 
@@ -192,6 +208,14 @@ $white: #fff;
   }
 }
 
+@media (min-width: 1440px) {
+  #content-img-bg-2::before {
+    margin-top: 6rem;
+    height: 22rem;
+    transform: translateX(-65rem);
+  }
+}
+
 ///////////////////// Third Tab Content Blue BG
 
 #content-img-bg-3::before {
@@ -242,6 +266,14 @@ $white: #fff;
     margin-top: 6rem;
     height: 22rem;
     transform: translateX(-55rem);
+  }
+}
+
+@media (min-width: 1440px) {
+  #content-img-bg-3::before {
+    margin-top: 6rem;
+    height: 22rem;
+    transform: translateX(-65rem);
   }
 }
 
