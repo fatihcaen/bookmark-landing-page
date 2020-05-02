@@ -4,7 +4,7 @@ module.exports = {
       padding: {
         default: '2rem',
         lg: '6rem',
-      },
+      }
     },
     fontFamily: {
       body: ['Rubik', 'sans-serif'],

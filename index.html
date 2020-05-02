@@ -21,7 +21,7 @@
         <h6 class="link">FEATURES</h6>
         <h6 class="link">PRICING</h6>
         <h6 class="link">CONTACT</h6>
-        <button class="btn btn-red">LOGIN</button>
+        <button class="btn btn-red lg:py-2 lg:text-xs lg:tracking-2xl">LOGIN</button>
       </div>
       <span class="toggler cursor-pointer sm:w-6 md:w-8 lg:hidden">
         <img src="assets/icon-hamburger.svg" alt="toggler icon" class="img">
@@ -64,9 +64,11 @@
 
     <div class="intro flex flex-col mt-16 lg:flex-row lg:items-center lg:justify-between">
       <div class="illustration order-1 lg:order-2 lg:w-1/2 lg:absolute lg:right-0 lg:mt-10 xl:mt-20">
-        <img src="assets/illustration-hero.svg" alt="" class="img">
+        <span id="intro-bg">
+          <img src="assets/illustration-hero.svg" alt="" class="img">
+        </span>
       </div>
-      <!-- <div class="blue-shape"></div> -->
+
       <div class="slogan flex flex-col items-center order-2 mt-10 lg:order-1 lg:items-start lg:w-1/2">
         <h2 class="lg:text-left lg:text-4xl lg:leading-tight xl:text-5xl">A Simple Bookmark Manager</h2>
         <p class="p-gray mb-6 lg:text-left xl:text-lg">
@@ -101,10 +103,11 @@
       </div>
       <div class="tab-content" id="tab-content0">
         <div class="illustration">
-          <img src="assets/illustration-features-tab-1.svg" alt="" class="img">
+          <span id="content-img-bg-3">
+            <img src="assets/illustration-features-tab-3.svg" alt="" class="img">
+          </span>
         </div>
-        <!-- <div class="blue-shape-features xs:h-48 sm:h-88 sm:mt-40"></div> -->
-        <div class="jumbotron sm:mt-20">
+        <div class="jumbotron mt-16 sm:mt-32">
           <h3>Bookmark in one click</h3>
           <p class="p-gray">
             Organize your bookmarks however you like. Our simple drag-and-drop interface
@@ -117,10 +120,11 @@
       </div>
       <div class="tab-content" id="tab-content1">
         <div class="illustration">
-          <img src="assets/illustration-features-tab-2.svg" alt="" class="img">
+          <span id="content-img-bg-2">
+            <img src="assets/illustration-features-tab-2.svg" alt="" class="img">
+          </span>
         </div>
-        <!-- <div class="blue-shape-features h-56 xs:h-64"></div> -->
-        <div class="jumbotron">
+        <div class="jumbotron mt-10">
           <h3>Intelligent Search</h3>
           <p class="p-gray">
             Our powerful search feature will help you find saved sites in no time at all.
@@ -133,10 +137,11 @@
       </div>
       <div class="tab-content" id="tab-content2">
         <div class="illustration">
-          <img src="assets/illustration-features-tab-3.svg" alt="" class="img">
+          <span id="content-img-bg-3">
+            <img src="assets/illustration-features-tab-3.svg" alt="" class="img">
+          </span>
         </div>
-        <!-- <div class="blue-shape-features -translate-x-24 h-56 xs:h-64"></div> -->
-        <div class="jumbotron">
+        <div class="jumbotron mt-16">
           <h3>Share Your Bookmarks</h3>
           <p class="p-gray">
             Easily share your bookmarks and collections with others. Create a shareable
@@ -148,7 +153,7 @@
         </div>
       </div>
     </div>
-    <div class="install flex flex-col mt-32">
+    <div class="install flex flex-col mt-32 lg:mt-40">
       <h3>Download the extension</h3>
       <p class="p-gray lg:self-center lg:w-2/3">
         We’ve got more browsers in the pipeline. Please do let us know if you’ve

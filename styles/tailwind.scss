@@ -116,7 +116,7 @@ a {
   @apply hidden flex flex-col mt-16;
 
   .jumbotron {
-    @apply flex flex-col items-center mt-10;
+    @apply flex flex-col items-center;
   }
 }
 
@@ -130,15 +130,6 @@ a {
   hr {
     @apply border-soft-red border-2 w-1/2;
   }
-}
-
-/* Blue shape */
-.blue-shape {
-  @apply bg-soft-blue w-full h-40 absolute transform translate-x-12 -mt-40 rounded-l-4xl;
-}
-
-.blue-shape-features {
-  @apply bg-soft-blue w-full h-40 absolute transform -translate-x-32 translate-y-12 rounded-r-4xl mt-4;
 }
 
 /* Extension Card */
@@ -186,24 +177,6 @@ footer {
 @tailwind components;
 
 @tailwind utilities;
-
-@screen xs {
-  .blue-shape {
-    @apply h-48 -mt-48 translate-x-32 translate-x-16;
-  }
-}
-
-@screen sm {
-  .blue-shape {
-    @apply h-80 -mt-80 translate-x-32;
-  }
-}
-
-@screen md {
-  .blue-shape {
-    @apply h-88 -mt-88;
-  }
-}
 
 @screen lg {
   h3 {
